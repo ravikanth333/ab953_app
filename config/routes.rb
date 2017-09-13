@@ -3,8 +3,9 @@ Rails.application.routes.draw do
 
 
 
-  get 'data_validation' => 'stops_api#data_validation'
+  post 'data_validation' => 'stops_api#data_validation'
 
+  post 'search_ori' => 'stops_api#search_ori'
 
 
 

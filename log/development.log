@@ -752,3 +752,338 @@ Processing by StopsApiController#data_validation as JSON
 Completed 200 OK in 0ms (Views: 0.1ms)
 
 
+Started GET "/stops" for 127.0.0.1 at 2017-09-11 09:44:15 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stops"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2017-09-11 09:44:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 12:49:33 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 131ms (Views: 0.2ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 12:49:52 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/resque" for 127.0.0.1 at 2017-09-11 13:41:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/resque"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 13:59:55 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:01:16 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:02:05 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:02:08 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:02:10 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:02:12 -0700
+Processing by StopsApiController#data_validation as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started POST "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:47:38 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/data_validation.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:49:30 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/data_validation.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/data_validation.json" for 127.0.0.1 at 2017-09-11 14:50:10 -0700
+Processing by StopsApiController#data_validation as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "firstname"=>"Mahalakshmi", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "firstname"=>"Mahalakshmi", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 0ms
+
+
+  
+RuntimeError (<ActionController::Parameters {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "firstname"=>"Mahalakshmi", "controller"=>"stops", "action"=>"initial_stop"}, "controller"=>"stops_api", "action"=>"data_validation", "format"=>"json", "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "firstname"=>"Mahalakshmi", "controller"=>"stops", "action"=>"initial_stop"}}} permitted: false>):
+  
+app/controllers/stops_api_controller.rb:5:in `data_validation'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 15:24:26 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/search_ori.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 15:27:08 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/search_ori.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 15:28:51 -0700
+Processing by StopsApiController#search_ori as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NameError (uninitialized constant StopsApiController::Cassandra):
+  
+app/controllers/stops_api_controller.rb:15:in `cassandra_connect'
+app/controllers/stops_api_controller.rb:21:in `search_database'
+app/controllers/stops_api_controller.rb:5:in `search_ori'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 15:31:20 -0700
+Processing by StopsApiController#search_ori as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 10180ms
+
+
+  
+Cassandra::Errors::NoHostsAvailable (All attempted hosts failed: 13.58.26.103 (Cassandra::Errors::IOError: Could not connect to 13.58.26.103:9042 within 10s)):
+  
+app/controllers/stops_api_controller.rb:16:in `cassandra_connect'
+app/controllers/stops_api_controller.rb:22:in `search_database'
+app/controllers/stops_api_controller.rb:6:in `search_ori'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 15:32:01 -0700
+Processing by StopsApiController#search_ori as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 10069ms
+
+
+  
+Cassandra::Errors::NoHostsAvailable (All attempted hosts failed: 13.58.26.103 (Cassandra::Errors::IOError: Could not connect to 13.58.26.103:9042 within 10s)):
+  
+app/controllers/stops_api_controller.rb:16:in `cassandra_connect'
+app/controllers/stops_api_controller.rb:22:in `search_database'
+app/controllers/stops_api_controller.rb:6:in `search_ori'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 16:38:15 -0700
+Processing by StopsApiController#search_ori as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 10071ms
+
+
+  
+Cassandra::Errors::NoHostsAvailable (All attempted hosts failed: 13.58.26.103 (Cassandra::Errors::IOError: Could not connect to 13.58.26.103:9042 within 10s)):
+  
+app/controllers/stops_api_controller.rb:16:in `cassandra_connect'
+app/controllers/stops_api_controller.rb:22:in `search_database'
+app/controllers/stops_api_controller.rb:6:in `search_ori'
+Started POST "/search_ori.json" for 127.0.0.1 at 2017-09-11 16:40:05 -0700
+Processing by StopsApiController#search_ori as JSON
+  Parameters: {"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}, "stops_api"=>{"subject"=>"This is the screen name", "parameters"=>{"utf8"=>"✓", "ori"=>" a005", "firstname"=>" ", "controller"=>"stops", "action"=>"initial_stop"}}}
+Completed 500 Internal Server Error in 10066ms
+
+
+  
+Cassandra::Errors::NoHostsAvailable (All attempted hosts failed: 13.58.26.103 (Cassandra::Errors::IOError: Could not connect to 13.58.26.103:9042 within 10s)):
+  
+app/controllers/stops_api_controller.rb:16:in `cassandra_connect'
+app/controllers/stops_api_controller.rb:22:in `search_database'
+app/controllers/stops_api_controller.rb:6:in `search_ori'
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-12 12:54:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/data_validation.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/data_validation.json" for 127.0.0.1 at 2017-09-12 12:59:52 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/data_validation.json"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
